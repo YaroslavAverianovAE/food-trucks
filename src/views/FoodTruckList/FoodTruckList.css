@@ -1,0 +1,39 @@
+.food-truck-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.food-truck-list .food-truck-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    padding: 0 0 40px;
+}
+
+.food-truck-list .food-truck-item {
+    font-size: 18px;
+}
+
+.food-truck-list a {
+    height: 100%;
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.food-truck-list a:hover {
+    background-color: #e9ecef;
+}
+
+.food-truck-list .food-truck-item-details {
+    color: #000;
+    font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.text-columns .text-row {
+    display: flex;
+    padding: 5px 0;
+}
+
+.text-columns .text-row-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0 5px;
+}
+
+.text-columns .text-row-item-label {
+    text-align: end;
+}

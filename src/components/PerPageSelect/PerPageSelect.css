@@ -1,0 +1,16 @@
+.per-page-select {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.per-page-select label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.per-page-select select {
+    padding: 5px;
+    font-size: 16px;
+}
